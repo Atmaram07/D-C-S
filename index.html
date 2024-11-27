@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dodong Consultancy Services</title>
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" alt="Logo" />
+        </a>
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="components/About.html" target="_blank"
+                >About</a
+              >
+            </li>
+            <!-- Services Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li class="dropdown-item">
+                  <strong>Development Services →</strong>
+                </li>
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><a class="dropdown-item" href="#">Cloud Services</a></li>
+                <li class="dropdown-item">
+                  <strong>Consulting Services →</strong>
+                </li>
+                <li><a class="dropdown-item" href="#">IT Consulting</a></li>
+                <li><a class="dropdown-item" href="#">Business Strategy</a></li>
+              </ul>
+            </li>
+            <!-- Pricing Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="pricingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pricing
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="pricingDropdown">
+                <li class="dropdown-item">
+                  <strong>Subscription Plans →</strong>
+                </li>
+                <li><a class="dropdown-item" href="#">Basic Plan</a></li>
+                <li><a class="dropdown-item" href="#">Pro Plan</a></li>
+                <li><a class="dropdown-item" href="#">Enterprise Plan</a></li>
+                <li class="dropdown-item">
+                  <strong>Custom Solutions →</strong>
+                </li>
+                <li><a class="dropdown-item" href="#">Custom Pricing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Get In Touch Button -->
+        <div class="d-none d-lg-block">
+          <a href="#" class="btn-primary get-in-touch-btn">Get in Touch</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero-section container my-5">
+      <div class="row justify-content-between">
+        <!-- Left content -->
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="hero-content">
+            <h1>
+              Transform Your Business with
+              <span>Innovative Web & App </span> Solutions
+            </h1>
+            <p>
+              Discover how Dodong Consultancy Services can elevate your digital
+              presence with top-notch website and app development for the US and
+              Canada.
+            </p>
+            <a href="#" class="btn btn-primary">Get Free Consultation →</a>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+
+        <!-- Center image - moves below the text on mobile screens -->
+        <div
+          class="hero-image col-lg-5 col-md-12 order-lg-2 order-md-3 order-3 mt-4 mt-lg-0"
+        >
+          <img
+            src="https://via.placeholder.com/400x300.png?text=30%25"
+            alt="30% Discount"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommend section -->
+    <div class="container my-5">
+      <h2 class="section-title">Sucess Stories</h2>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-top mb-3"
+              alt="DCS Granite 3.0"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title">DCS Granite 3.0</h5>
+              <p class="card-text">
+                AI language models for code generation, translation and
+                documentation
+              </p>
+            </div>
+            <div class="card-footer p-0">
+              <a href="#" class="arrow-link">→</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-top mb-3"
+              alt="DCS SPSS Statistics"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title">DCS SPSS Statistics</h5>
+              <p class="card-text">
+                Get a 30% discount on the first month or year of your DCS SPSS
+                Statistics subscription
+              </p>
+            </div>
+            <div class="card-footer p-0">
+              <a href="#" class="arrow-link">→</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-top mb-3"
+              alt="DCS Video Streaming"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title">DCS Video Streaming</h5>
+              <p class="card-text">
+                Virtual events and video streaming platform; try it free and
+                unlock a 30% discount
+              </p>
+            </div>
+            <div class="card-footer p-0">
+              <a href="#" class="arrow-link">→</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-top mb-3"
+              alt="DCS Aspera"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title">DCS Aspera</h5>
+              <p class="card-text">
+                Get a 30% discount on the first year of your DCS Aspera
+                subscription
+              </p>
+            </div>
+            <div class="card-footer p-0">
+              <a href="#" class="arrow-link">→</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- Pricing -->
+    <div class="container my-5">
+      <h1 class="main-title">Our Services</h1>
+      <div class="row">
+        <!-- For Developers Section -->
+        <div class="col-lg-6 mb-4">
+          <h2 class="section-subtitle">For Web Development</h2>
+          <p class="section-description">
+            Grow your skills and create something new with our AI tools and
+            foundation models. Then connect, collaborate and innovate with your
+            peers.
+          </p>
+          <ul class="link-list">
+            <li>
+              <a href="#">Start building with DCS Granite 3.0 models →</a>
+            </li>
+            <li>
+              <a href="#">Explore AI courses, APIs, data sets and more →</a>
+            </li>
+            <li>
+              <a href="#"
+                >Accelerate software development with watsonx Code Assistant
+                →</a
+              >
+            </li>
+            <li>
+              <a href="#">Check out the watsonx.ai Developer Toolkit →</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- For Business Leaders Section -->
+        <div class="col-lg-6 mb-4">
+          <h2 class="section-subtitle">For App Development</h2>
+          <p class="section-description">
+            Transform business and drive growth with AI tools, technology and
+            insights that help you stay competitive—and responsibly map your
+            organization’s future.
+          </p>
+          <ul class="link-list">
+            <li><a href="#">Read the CEO's guide to generative AI →</a></li>
+            <li>
+              <a href="#"
+                >Explore an AI curriculum designed for business leaders →</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Deploy an AI agent for HR with watsonx Orchestrate →</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Protect your data with DCS Guardium Data Security Center →</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- success stories -->
+    <div class="container my-5">
+      <!-- Main Title -->
+      <h1 class="success">Success Stories</h1>
+      <p class="success-description">
+        Solving the world’s problems through technology wouldn’t be possible
+        without people with the right skills. See what it takes to become a
+        DCSer, or build your skills with our educational courses.
+      </p>
+
+      <!-- Card Section -->
+      <div class="row g-4 mt-4">
+        <!-- First Card -->
+        <div class="col-lg-6">
+          <div
+            class="card h-100 shadow-sm d-flex flex-row align-items-center p-3"
+          >
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-left me-3"
+              alt="DCS India Careers"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-subtitle">DCS India Careers</h5>
+              <h3 class="card-title">Become a DCSer</h3>
+              <a href="#" class="card-link">Explore Now →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-lg-6">
+          <div
+            class="card h-100 shadow-sm d-flex flex-row align-items-center p-3"
+          >
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-left me-3"
+              alt="DCS SkillsBuild"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-subtitle">DCS SkillsBuild</h5>
+              <h3 class="card-title">Explore learning opportunities</h3>
+              <a href="#" class="card-link">Explore Now →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- Choose Us Section -->
+    <div class="container my-5">
+      <!-- Main Title and Description -->
+      <h1 class="choose-us">Why Choose Us?</h1>
+      <p class="choose-us-description">
+        From next-generation AI to cutting edge hybrid cloud solutions to the
+        deep expertise of
+        <a href="#">DCS Consulting</a>, DCS has what it takes to help you
+        reinvent how your business works in the age of AI.
+      </p>
+
+      <!-- Centered Card Grid Section with gaps between columns -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="margin-bottom: 30px">
+          <div class="choose-us-card h-100 shadow-sm">
+            <div class="choose-us-card-body text-center">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="Icon"
+                class="choose-us-card-icon"
+              />
+              <h5 class="choose-us-card-title">AI solutions</h5>
+            </div>
+            <div class="choose-us-overlay">
+              <p class="choose-us-overlay-text">
+                Go from AI pilots to production with AI technologies built for
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more cards as needed -->
+      </div>
+      <hr />
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container my-5">
+      <div class="contact-container rounded shadow-sm p-5">
+        <div class="row g-4 align-items-center">
+          <!-- Contact Information on the Left -->
+          <div class="col-md-6">
+            <h2 class="contact-info-title">Get in Touch</h2>
+            <p class="contact-info-description">
+              We’re here to help you navigate the world of AI and technology.
+              Reach out to us with your questions!
+            </p>
+            <ul class="contact-details list-unstyled mt-4">
+              <li><strong>Address:</strong> 123 Tech Street, City, Country</li>
+              <li>
+                <strong>Email:</strong> contact@dodongconsultancyservices.com
+              </li>
+              <li><strong>Phone:</strong> +91-7077981777</li>
+            </ul>
+          </div>
+
+          <!-- Contact Form on the Right -->
+          <div class="col-md-6">
+            <form>
+              <div class="row">
+                <!-- First Name and Last Name -->
+                <div class="col-md-6 mb-3">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="Enter your first name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Enter your last name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <!-- Email and Phone -->
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- Message -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+              </div>
+              <!-- Submit Button -->
+              <button type="submit" class="submit-btn w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal HTML Structure -->
+    <div
+      class="modal fade"
+      id="newsletterModal"
+      tabindex="-1"
+      aria-labelledby="newsletterModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-4">
+          <!-- Custom Close Button with Font Awesome -->
+          <button
+            type="button"
+            class="custom-close-button"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <div class="modal-body text-center">
+            <!-- Icon or Image for Newsletter -->
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/email-open.png"
+              alt="Newsletter Icon"
+              class="mb-3"
+              style="width: 50px"
+            />
+
+            <!-- Heading -->
+            <h5 class="modal-title fw-bold mb-2" id="newsletterModalLabel">
+              Subscribe to our newsletter
+            </h5>
+            <p class="text-muted mb-4">
+              Sign up for our newsletter and receive exclusive discounts and
+              promotions
+            </p>
+
+            <!-- Subscription Form -->
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email address"
+                  required
+                />
+                <button class="btn" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WhatsApp Chat Button -->
+    <a
+      href="https://wa.me/+917077981777"
+      class="whatsapp-button"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <img
+        src="https://img.icons8.com/color/48/000000/whatsapp.png"
+        alt="WhatsApp Icon"
+        class="whatsapp-icon"
+      />
+      <span class="whatsapp-text">Chat on WhatsApp</span>
+    </a>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-light py-5">
+      <div class="container">
+        <div class="row align-items-center mb-4">
+          <!-- Logo -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <a href="#"
+              ><img
+                src="assets\logo.png"
+                alt="DCS Logo"
+                class="footer-logo mb-3"
+            /></a>
+          </div>
+        </div>
+
+        <hr class="text-secondary" />
+
+        <div class="row">
+          <!-- Column 1: Discover -->
+          <div class="col-md-4 mb-3">
+            <h6 class="d-md-block d-none">Discover</h6>
+            <div
+              class="btn-link d-md-none text-light w-100 text-start"
+              data-bs-toggle="collapse"
+              data-bs-target="#discoverSection"
+              aria-expanded="false"
+            >
+              Discover <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </div>
+            <div
+              class="collapse d-md-block bordered-collapse"
+              id="discoverSection"
+            >
+              <ul class="list-unstyled">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Trials</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Case studies</a></li>
+                <li><a href="#">Financing</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2: Learn About -->
+          <div class="col-md-4 mb-3">
+            <h6 class="d-md-block d-none">Learn about</h6>
+            <div
+              class="btn-link d-md-none text-light w-100 text-start"
+              data-bs-toggle="collapse"
+              data-bs-target="#learnAboutSection"
+              aria-expanded="false"
+            >
+              Learn about <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </div>
+            <div
+              class="collapse d-md-block bordered-collapse"
+              id="learnAboutSection"
+            >
+              <ul class="list-unstyled">
+                <li><a href="#">Artificial intelligence</a></li>
+                <li><a href="#">Machine learning</a></li>
+                <li><a href="#">Generative AI</a></li>
+                <li><a href="#">Responsible AI</a></li>
+                <li><a href="#">Cybersecurity</a></li>
+                <li><a href="#">Business analytics</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3: Connect with Us -->
+          <div class="col-md-4 mb-3">
+            <h6 class="d-md-block d-none">Connect with us</h6>
+            <div
+              class="btn-link d-md-none text-light w-100 text-start"
+              data-bs-toggle="collapse"
+              data-bs-target="#connectWithUsSection"
+              aria-expanded="false"
+            >
+              Connect with us
+              <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </div>
+            <div
+              class="collapse d-md-block bordered-collapse"
+              id="connectWithUsSection"
+            >
+              <ul class="list-unstyled">
+                <li><a href="#">Engage DCS Consulting</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Find a partner</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Business Partners</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 4: About DCS -->
+          <div class="col-md-4 mb-3">
+            <h6 class="d-md-block d-none">About DCS</h6>
+            <div
+              class="btn-link d-md-none text-light w-100 text-start"
+              data-bs-toggle="collapse"
+              data-bs-target="#aboutDCSSection"
+              aria-expanded="false"
+            >
+              About DCS <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </div>
+            <div
+              class="collapse d-md-block bordered-collapse"
+              id="aboutDCSSection"
+            >
+              <ul class="list-unstyled">
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Newsroom</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Investor relations</a></li>
+                <li><a href="#">Corporate responsibility</a></li>
+                <li><a href="#">About DCS</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 5: Follow DCS -->
+          <div class="col-md-4 mb-3">
+            <h6 class="d-md-block d-none">Follow DCS</h6>
+            <div
+              class="btn-link d-md-none text-light w-100 text-start"
+              data-bs-toggle="collapse"
+              data-bs-target="#followDCSSection"
+              aria-expanded="false"
+            >
+              Follow DCS <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </div>
+            <div
+              class="collapse d-md-block bordered-collapse"
+              id="followDCSSection"
+            >
+              <ul class="list-unstyled">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Subscription Center</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom Links -->
+        <hr class="text-secondary my-4" />
+        <div class="row">
+          <div class="col-md-3 text-start">
+            <ul class="list-unstyled">
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-start">
+            <ul class="list-unstyled">
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-start">
+            <ul class="list-unstyled">
+              <li><a href="#">Terms of use</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-start">
+            <ul class="list-unstyled">
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
